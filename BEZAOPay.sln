@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEZAOPay", "BEZAOPay\BEZAOPay.csproj", "{F5C9FD04-B1CB-4EAD-AE23-A0E72EA7D051}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BEZAOPayDAL", "BEZAOPayDAL\BEZAOPayDAL.csproj", "{C78640A6-13DF-4CB8-B3BF-5F4CB29835A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5C9FD04-B1CB-4EAD-AE23-A0E72EA7D051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C9FD04-B1CB-4EAD-AE23-A0E72EA7D051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C9FD04-B1CB-4EAD-AE23-A0E72EA7D051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C9FD04-B1CB-4EAD-AE23-A0E72EA7D051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78640A6-13DF-4CB8-B3BF-5F4CB29835A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78640A6-13DF-4CB8-B3BF-5F4CB29835A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78640A6-13DF-4CB8-B3BF-5F4CB29835A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78640A6-13DF-4CB8-B3BF-5F4CB29835A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7844E21-A23A-4A5D-8ED2-4286802820B4}
+	EndGlobalSection
+EndGlobal
