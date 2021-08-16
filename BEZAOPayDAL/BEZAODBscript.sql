@@ -37,11 +37,19 @@ CONSTRAINT [FK_Transactions_Users]
 
 Go
 
-CREATE PROCEDURE GetName
-@Id int,
-@name char(50) output
+CREATE PROCEDURE GetUserName
+@Id int
 AS
-SELECT @name = Name from Users where Id = @Id
+Select Name From USERS where Id = @id
+
+Go
+
+CREATE PROCEDURE AddNewUser
+@Id int,
+@Name NVarChar(50),
+@Email NVarChar(50)
+AS
+Insert Into users (Name, Email) Values (@Name, @Email)
 
 Go
 
